@@ -1,0 +1,111 @@
+.SinglePage {
+    font-family: ProximaNovaLight;
+    background-color: var(clr-greyBg);
+    padding-bottom: 1em;
+    min-height: 94vh;
+}
+
+
+
+.SinglePageheader{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 14px;
+    color: #3483fa;
+    padding: 1em;
+    height: 3.5em;
+}
+
+.SinglePageheader p:first-of-type{
+    display: none;
+}
+
+.SinglePageheader p{
+    color: #666;
+}
+
+.SinglePageheader{
+    display: flex;
+    margin-inline: 2em;
+
+}
+
+.SinglePagemain{
+    display: flex;
+    gap: 1em;
+    background-color: var(clr-light);
+    justify-content: center;
+    margin-inline: 2em;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+
+
+}
+
+.SinglePageimg{
+    border-radius: 15px;
+    align-self: center;
+
+}
+
+
+
+.SinglePageSidebar {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+
+}
+
+.SinglePageSidebarcondicion{
+    margin-bottom: 0;
+}
+
+.SinglePageSidebartitulo{
+    margin-block: 0;
+}
+
+.SinglePageSidebarprecio{
+    font-size: 36px;
+    font-family: ProximaNovaLight;
+    font-weight: 100;
+}
+
+.SinglePagebuy{
+    all: none;
+    background-color: #3483fa;
+    border-color: transparent;
+    color: #fff;
+    font-family: ProximaNovaRegular;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 48px;
+    font-size: 16px;
+    transition: all 200ms ease-in-out;
+}
+
+.SinglePagebuy:hover{
+    background-color: #2d6dcc;
+}
+
+
+.SinglePageSection {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.SinglePagemainTitle{
+    font-size: 30px
+}
+
+.SinglePagedescripcion{
+     color:#666;
+     font-size: 22px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
